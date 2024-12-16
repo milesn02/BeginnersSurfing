@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surfing Basics - Beginner Tips</title>
+    <link href="CSS/Styles.CSS" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Surfing Basics: A Guide for Beginners</h1>
+        <p>Learn the essential tips and tricks to get started with surfing!</p>
+    </header>
+
+    <div class="content">
+        <div class="intro">
+            <div class="intro-text">
+                <h2>What Is Surfing?</h2>
+                <p>Surfing is an exciting water sport where you ride on waves using a surfboard. It requires skill, balance, and practice. Surfing allows you to connect with the ocean while challenging your body and mind.</p>
+            </div>
+            <img src="Photos/IMG.1.jpg" alt="Surfing Image 1" class="intro-image">
+        </div>
+
+        <div class="surfing-tips">
+            <h3>Top 5 Beginner Surfing Tips</h3>
+            <ul>
+                <li>Start with a Soft-top Surfboard: It's more stable and easier to balance on for beginners.</li>
+                <li>Practice Paddling: Get comfortable paddling in the water to build strength and confidence.</li>
+                <li>Master the Pop-up: Practice going from lying down to standing on your board on land first.</li>
+                <li>Learn to Read the Waves: Understand wave patterns and how to choose the right wave.</li>
+                <li>Stay Safe: Always wear a leash, surf with a buddy, and follow ocean safety rules.</li>
+            </ul>
+            <img src="Photos/IMG.2.jpg" alt="Surfing Image 2" class="intro-image">
+        </div>
+
+        <!-- Ordered list with embedded unordered list -->
+        <div class="beginner-steps">
+            <h3>Steps to Start Surfing</h3>
+            <ol>
+                <li>Preparation
+                    <ul>
+                        <li>Choose the right surfboard.</li>
+                        <li>Wear appropriate gear.</li>
+                    </ul>
+                </li>
+                <li>Practice
+                    <ul>
+                        <li>Learn to balance on land.</li>
+                        <li>Practice paddling in calm water.</li>
+                    </ul>
+                </li>
+                <li>Catch Your First Wave</li>
+            </ol>
+        </div>
+
+        <!-- Image Gallery -->
+        <div class="image-gallery">
+            <img src="Photos/IMG.3.jpg" alt="Surfing Image 3">
+            <img src="Photos/IMG.4.jpg" alt="Surfing Image 4">
+        </div>
+
+        <div class="video-section">
+            <h3>Watch This Beginner Surfing Tutorial!</h3>
+            <iframe src="https://www.youtube.com/embed/soYzK_zmIsA" title="Beginner Surfing Tutorial" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <!-- Interactive Tableau Graph Section -->
+        <section class="interactive-graph">
+            <h3>Interactive Data Visualization</h3>
+            <p>Explore a live and interactive graph below. Feel free to interact with it for more detailed insights!</p>
+            <div class='tableauPlaceholder' id='viz1734122036487' style='position: relative'>
+                <noscript>
+                    <a href='#'><img alt='Dashboard 1 ' src='https://public.tableau.com/static/images/Sh/SharkAttacksMapUS/Dashboard1/1_rss.png' /></a>
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='name' value='SharkAttacksMapUS/Dashboard1' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1734122036487');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width='100%'; vizElement.style.height='500px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        </section>
+
+        <!-- Extras Section -->
+        <div class="extras-section">
+            <h3>Explore More!</h3>
+            <p>Check out my other projects:</p>
+            <ul>
+                <li>
+                    <a href="html/Resume.html.html" target="_blank">View My Resume</a>
+                </li>
+                <li>
+                    <a href="html/WebGame.html.html" target="_blank">Play My Web Game</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Surfing for Beginners. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Back to Top</button>
+
+    <script>
+    
+          window.onscroll = function() {
+            var button = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        };
+    </script>
+</body>
+</html>
